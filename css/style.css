@@ -1,0 +1,208 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+ @font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/GESSTwoMedium.woff);
+}
+@font-face{
+	font-family: mySoecondFont;
+	src: url(../fonts/AraAssaf-Regular.woff);
+}
+/*=========================================*/
+
+body{
+	background-color: #e5e5e5;
+	font-family: 'Droid Arabic Kufi', serif;
+	font-size: 14px;
+}
+.our-services{
+	padding-top: 90px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.our-services h2{
+	color: #0f1835;
+	display: inline;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.line{
+	background-color: #d2d4d9;
+	height: 2px;
+	width: 100%;
+}
+.line1{
+	height: 2px;
+	width: 90px;
+	background-color: #00a6ea;
+	margin: 20px auto;
+	position: relative;
+	top: 22px;
+}
+.angle{
+	color: #00a6ea;
+	padding: 5px 9px;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 2px solid #0f1835;
+
+}
+.services{
+	margin-top: 50px;
+}
+.slide{
+	background-image: url("../images/slide.jpg");
+	background-repeat: no-repeat;
+	min-height: 550px;
+}
+.bg-serv{
+	background-color: #fff;
+	padding: 40px 15px;
+	text-align: center;
+	position: relative;
+	top: -54px;
+	-webkit-box-shadow: 0px -9px 10px 0px rgba(227,228,231,1);
+	-moz-box-shadow: 0px -9px 10px 0px rgba(227,228,231,1);
+	box-shadow: 0px -9px 10px 0px rgba(227,228,231,1);
+	margin-left: 8px;
+}
+.awesome-icon{
+	padding: 20px 20px;
+	background-color: #2d5e7f;
+	border-radius: 50%;
+	border: 3px solid #e9ebf1;
+	color: #fff;
+	position: relative;
+	z-index: 50;
+	top: -37px;
+	right: -4px;
+	font-size: 30px;
+}
+/*=====================================================*/
+.our-partners{
+	background-image: url("../images/bgpar.jpg");
+	background-repeat: no-repeat;
+	min-height: 500px;
+}
+.tab-content{
+	background-color: #fff;
+   	border-radius: 15px;
+  	padding: 20px;
+  	border-top-right-radius: 0px;
+  	min-height: 270px;
+}
+.tab-content p > a > span{
+	padding-right: 10px;
+}
+.nav-tabs{
+	border:0px;
+}
+.nav-tabs li{
+	background-color: #f1f1f1;
+	margin-left: 5px;
+  	border-top-right-radius: 10px;
+  	border-top-left-radius: 10px;
+}
+.nav-tabs li > .active{
+	background-color: #fff;
+}
+.partners{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.partners h2{
+	margin: 0px 18px;
+	color: #fff;
+}
+.line2{
+	height: 2px;
+	width: 90px;
+	background-color: #0091ff;
+	margin-top: 20px;
+ 	margin-bottom: 20px;
+ 	margin-right: 18px;
+}
+.partners img{
+	margin-bottom: 30px;
+}
+/*========================================================*/
+.our-projects{
+	padding-top: 90px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.our-projects h2{
+	color: #0f1835;
+	display: inline;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.projects{
+	margin-top: 50px;
+}
+.projects h4{
+	position: relative;
+  z-index: 50;
+  top: -40px;
+  color: #fff;
+  font-size: 14px;
+
+}
+/*================================================*/
+footer{
+	background-color: #040823;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.extera{
+}
+.extera h4{
+	color: #d1c5ca;
+}
+.extera a{
+	margin-right: 10px;
+}
+.extera a:hover{
+	text-decoration: none;
+	color: #2196f3;
+}
+.extera li{
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: right;
+	color: #455b65;
+}
+.copyrights{
+	text-align: center;
+}
+.copyrights img{
+	margin-bottom: 30px;
+}
+.copyrights p{
+	color: #d1c5ca;
+	font-size: 12px;
+}
+.copyrights a{
+	color: #d1c5ca;
+	font-size: 12px;
+}
+.copyrights p:hover{
+	color: #d1c5ca;
+	font-size: 12px;
+	text-decoration: none;
+}
+.back-to-top {
+    position: relative;
+  float: left;
+  bottom: 62px;
+  left: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(0, 189, 251, 1);
+  font-size: 25px;
+  padding: 2px 11px;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(0, 189, 251, 1);
+}
